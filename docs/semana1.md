@@ -50,3 +50,93 @@ graph TD
 
 
 ```
+
+
+📋 Detalle de Cada Etapa
+Etapa 1: Definición del Problema
+
+✅ Preguntas clave:
+- ¿Qué decisión necesitamos tomar?
+- ¿Qué pregunta queremos responder con los datos?
+- ¿Cuáles son los criterios de éxito?
+
+📋 Entregable: Documento de objetivos y alcance del análisis
+
+Etapa 2: Recolección de Datos
+
+🔹 Fuentes de datos:
+| Tipo | Ejemplos |
+|------|----------|
+| Internas | CRM, ERP, bases de datos corporativas |
+| Externas | APIs públicas, encuestas, redes sociales |
+| Primarias | Datos recolectados directamente |
+| Secundarias | Datos ya procesados por terceros |
+
+⚠️ Consideraciones: Calidad, relevancia, ética y privacidad
+
+Etapa 3: Limpieza y Preparación
+
+# Ejemplo conceptual de limpieza de datos en Python
+import pandas as pd
+
+# Cargar datos
+df = pd.read_csv('datos.csv')
+
+# Identificar valores nulos
+print(df.isnull().sum())
+
+# Eliminar duplicados
+df = df.drop_duplicates()
+
+# Tratar valores atípicos (outliers)
+# ... código de tratamiento
+
+Etapa 4: Análisis Exploratorio de Datos (EDA)
+
+🔍 Objetivos del EDA:
+• Comprender la estructura y distribución de los datos
+• Identificar relaciones entre variables
+• Detectar patrones, anomalías o tendencias
+
+📊 Técnicas comunes:
+- Estadísticos descriptivos (media, mediana, desviación)
+- Visualizaciones: histogramas, boxplots, scatter plots
+- Matrices de correlación
+
+Etapa 5: Modelado y Análisis
+
+🧠 Enfoques según el objetivo:
+
+| Tipo de Análisis | Pregunta que responde | Técnicas |
+|-----------------|----------------------|----------|
+| Descriptivo | ¿Qué pasó? | Resúmenes, dashboards |
+| Diagnóstico | ¿Por qué pasó? | Correlación, segmentación |
+| Predictivo | ¿Qué podría pasar? | Regresión, clasificación |
+| Prescriptivo | ¿Qué deberíamos hacer? | Optimización, simulación |
+
+Etapa 6: Visualización e Interpretación
+
+🎨 Principios de visualización efectiva:
+1. Claridad: El mensaje debe ser entendido en segundos
+2. Relevancia: Mostrar solo lo importante
+3. Honestidad: No distorsionar la información
+4. Estética: Diseño limpio y profesional
+
+📈 Herramientas sugeridas:
+- Power BI, Tableau, Looker Studio
+- Python: matplotlib, seaborn, plotly
+- R: ggplot2, shiny
+
+Etapa 7: Comunicación de Resultados
+
+🗣️ Elementos de un reporte efectivo:
+
+✅ Estructura recomendada:
+1. Resumen ejecutivo (1 página)
+2. Contexto y objetivos
+3. Metodología utilizada
+4. Hallazgos principales con visualizaciones
+5. Conclusiones y recomendaciones accionables
+6. Limitaciones y próximos pasos
+
+💡 Tip: Adapta el lenguaje técnico según tu audiencia
