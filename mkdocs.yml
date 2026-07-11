@@ -2,7 +2,6 @@ site_name: Tutorial Analitica de Datos (Español)
 
 nav:
   - Index : index.md
-  - Temario : temario.md
   - Semana 1 : semana1.md
   
 
