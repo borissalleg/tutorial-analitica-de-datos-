@@ -66,6 +66,5 @@
 
             **Enfoque:** Control de variables macroeconómicas y microeconómicas para la toma de decisiones estratégicas.
 
-            **Ejemplo en Negocios Internacionales:** Evaluar cómo un incremento del 10% en los aranceles de un país destino afectará el volumen de ventas de tu empresa, aislando el efecto de la inflación y el tipo de cambio.
-        
-    
+```
+
